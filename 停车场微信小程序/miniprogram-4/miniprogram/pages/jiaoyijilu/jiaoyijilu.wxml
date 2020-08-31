@@ -1,0 +1,18 @@
+<scroll-view>
+  <view class="list-view" >
+    <view id="{{key}}" bindtap="clickitem" class="bottomGrayboder list-view-item">
+      <view class="clock_group" style="flex-direction:row;">
+        <image class="clock" src="../../images/clock.png" ></image>
+        <view class="time-view-padding">{{item.start_time}}</view>
+      </view>
+      <view >
+          <view class="text-view">停车消费</view>  
+          <view class="money-text">￥5</view>  
+          <view class="text-view" >停车位置</view>  
+          <view class="local-view">B2-11</view>
+      </view>
+      <view class="Timer-view" >停车时长</view>  
+      <view class="Timer-view">0小时 39 分钟</view>
+    </view>
+  </view>
+</scroll-view>

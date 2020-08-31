@@ -1,0 +1,82 @@
+.wbox{
+  height: 1100rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1rpx solid black;
+}
+.nbox1{
+  height: 250rpx;
+  width: 650rpx;
+  background-color: aqua;
+  align-self: center;
+  margin-top: 200rpx;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nbox2{
+  height: 400rpx;
+  width: 650rpx;
+  background-color:gold;
+  align-self: center;
+  margin-top: 20rpx;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nbox3{
+  height: 140rpx;
+  width: 650rpx;
+  background-color: brown;
+  align-self: center;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+.nbox21{
+  display: flex;
+  flex-direction: row;
+  
+}
+.nbox21 image{
+  height: 250rpx;
+  width: 300rpx;
+  margin: 10rpx;
+}
+.nbox21 text{
+  width:100%;
+  line-height: 60rpx;
+  font-size:40rpx;
+}
+.nbox31{
+  height: 70rpx;
+  background-color: greenyellow;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nbox32{
+  height: 70rpx;
+  background-color: hotpink;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nbox31 image{
+  height: 55rpx;
+  width: 55rpx;
+  margin-left: 20rpx;
+  margin-right: 30rpx;
+}
+.nbox32 image{
+  height: 55rpx;
+  width: 55rpx;
+  margin-left: 20rpx;
+  margin-right: 30rpx;
+}

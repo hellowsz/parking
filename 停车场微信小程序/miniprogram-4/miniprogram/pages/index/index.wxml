@@ -1,0 +1,41 @@
+<view class="wbox">
+
+  <view class="nbox1">
+  <text>牛批停车场</text>
+  <text>___________________________________</text>
+  <text>总车位:20</text>
+  <text>停车费：5元/小时</text>
+  </view>
+
+  <view class="nbox2">
+
+    <view>
+    <text>我的车</text>
+    </view>
+
+    <view class="nbox21">
+      <block wx:if="{{isscan}}">
+        <image src="{{cheweiweizhi}}"></image>
+      </block>
+  <button wx:else bindtap="getQRCode" class="uploadimagebutton">
+    <image src="/images/icons/扫描.png"></image>
+  </button>
+    </view>
+  </view>
+
+  <view class="nbox3">
+
+    <view class="nbox31">
+      <image src="/images/icons/help.png"></image>
+      <text>帮助</text>
+      <image src="/images/icons/arrow_right.png" style="margin-left: 380rpx;"></image>
+    </view>
+
+    <view class="nbox32">
+      <image src="/images/icons/info.png"></image>
+      <text>信息</text>
+      <image src="/images/icons/arrow_right.png" style="margin-left: 380rpx;"></image>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<view class="waibox">
+
+  <view class="ntop">
+
+    <view class="ntop_center">
+      <image src="/images/icons/车.png"></image>
+      <text>停车场状况B1层</text>
+      <image src="/images/icons/车.png"></image>
+    </view>
+
+  </view>
+
+  <view class="ndown">
+    <image src="/images/pingmiantu/b1.jpg"></image>
+  </view>
+  
+</view>

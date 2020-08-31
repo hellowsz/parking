@@ -1,0 +1,39 @@
+<view class="waibox">
+
+  <view class="ntop">
+
+    <view class="ntop_center">
+      <image src="/images/icons/车.png"></image>
+      <text>车位分布</text>
+      <image src="/images/icons/车.png"></image>
+    </view>
+
+  </view>
+
+  <view class="ndown">
+
+    <view class="ndown_b1">
+      <image src="/images/icons/位置.png"></image>
+      <text style="font-size: 40rpx;">B1</text>
+      <text class="centertext">333/333</text>
+      <image src="/images/icons/右箭头.png"></image>
+    </view>
+
+    <view class="ndown_b2">
+      
+      <image src="/images/icons/位置.png"></image>
+      <text style="font-size: 40rpx;">B2</text>
+      <text class="centertext">333/333</text>
+      <image src="/images/icons/右箭头.png"></image>
+    </view>
+
+    <view class="ndown_b3">
+      <image src="/images/icons/位置.png"></image>
+      <text style="font-size: 40rpx;">B3</text>
+      <text class="centertext">333/333</text>
+      <image src="/images/icons/右箭头.png"></image>
+    </view>
+
+  </view>
+  
+</view>

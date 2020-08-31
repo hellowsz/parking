@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/jiaoyijilu/jiaoyijilu",
+    "pages/chechangzhuangkuang/chechangzhuangkuang",
+    "pages/show/show"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "智能停车",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/index1.png",
+        "selectedIconPath": "images/tabbar/index2.png"
+      },
+      {
+        "pagePath": "pages/chechangzhuangkuang/chechangzhuangkuang",
+        "text": "停车场状况",
+        "iconPath": "images/tabbar/strategy.png",
+        "selectedIconPath": "images/tabbar/strategyHL.png"
+      },
+      {
+        "pagePath": "pages/jiaoyijilu/jiaoyijilu",
+        "text": "交易记录",
+        "iconPath": "images/tabbar/mine.png",
+        "selectedIconPath": "images/tabbar/mineHL.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
